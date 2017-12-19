@@ -13,14 +13,14 @@
 - 项目中，user3和user4负责将日志文件上传到bucket下，因此user5在galaxy-log-analyze这个Org下创建一个[Team](team.md): write_team：
 
     1. 将user3和user4作为member添加到write_team中。  
-    2. 在web console中为write_team生成[AccessKey](key_signature.md)。  
+    2. 在web console中为write_team生成[AccessKey](key-signature.md)。  
     3. 将文件存储中的galaxy-log-bucket的写权限赋予write_team。  
 
 - 之后，user3和user4就可以使用生成的AccessKey通过sdk向galaxy-log-bucket上传文件了。
 - user1和user2负责读取galaxy-log-bucket下的文件并进行分析，因此user5在galaxy-log-analyze这个Org下创建一个[Team](team.md): read_team：
 
     1. 将user1和user2作为member添加到read_team中。  
-    2. 在web console中为read_team生成[AccessKey](key_signature.md)。  
+    2. 在web console中为read_team生成[AccessKey](key-signature.md)。  
     3. 将文件存储中的galaxy-log-bucket的读权限赋予read_team。  
 
 - 之后，user1和user2就可以使用生成的AccessKey通过sdk从galaxy-log-bucket下载文件了。
