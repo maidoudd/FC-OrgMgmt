@@ -2,6 +2,6 @@
 * [User](user.md)
 * [Org](organization.md)
 * [Team](team.md)
-* [密钥与签名](key-signature.md)
+* [AccessKey](key-signature.md)
 * [Region](region.md)
 * [使用示例](example.md)
