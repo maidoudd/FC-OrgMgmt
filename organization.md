@@ -6,5 +6,5 @@
 - User在创建Org时，User会自动成为Org的Admin，创建者可以添加其他User为Org的Admin。
 - Org的Admin可以在Org下创建[Team](Team.md)，Team是资源权限授予的grantee。
 - Org的Admin可以为Org下其他Team授予“可创建资源”权限，被授权的Team就可以在Org下创建资源。
-- 用默认情况下，User创建的资源隶属于User自身；User在创建资源时，可以选择创建在某个有“可创建资源”权限的Org，这样资源就隶属于Org。
+- User在创建资源时，默认情况下所创建的资源隶属于User自身，如果选择了创建在某个有“可创建资源”权限的Org，则资源就隶属于该Org。
 - 融合云会根据资源的使用情况对资源进行计费，计费的结果会汇总到资源隶属的User或Org下。
