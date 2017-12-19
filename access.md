@@ -8,4 +8,4 @@
 
 #### sdk访问
 - 融合云各个服务都提供了不同语言的sdk，用户的程序可以使用sdk来访问服务。
-- 用户需要在Web console中生成[AccessKey](key_signature.md)，sdk会使用AccessKey对访问进行签名，服务根据签名来认证请求身份。
+- 用户需要在Web console中生成[密钥](key_signature.md)，sdk会使用密钥对访问进行签名，服务根据签名来认证请求身份。
